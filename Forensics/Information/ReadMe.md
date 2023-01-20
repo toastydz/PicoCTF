@@ -15,7 +15,7 @@ On the surface, just a cute cat picture. But let's run a few commands to see if 
 We are going to try ```strings```, ```binwalk```, and ```hexedit```.
 
 ```strings``` will find any text strings embedded in files. 
-```binwalk``` searches a image file for embedded files or executable code.
+```binwalk``` searches an image file for embedded files or executable code.
 ```hexedit``` is a file editor that shows you hex along with ASCII equivalent.
 
 ```console
