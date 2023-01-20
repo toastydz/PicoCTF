@@ -25,7 +25,7 @@ My terminal floods and I can't type anymore. This is why we test these things in
 
 I also tried ```strings``` and ```grep``` to find anything but that didn't reveal much.
 
-```hexedit``` also wasn't much help to me, looking back I could have seen a clue in the hex, but I got there eventually.
+```hexedit``` also wasn't much help to me because I didn't know what I was looking for, looking back I could have seen the file type here but it's okay we got there eventually.
 
 
 ## Get that metadata
