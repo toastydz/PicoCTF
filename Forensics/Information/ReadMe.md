@@ -14,9 +14,9 @@ We get a cute picture of this lil one:</br>
 On the surface, just a cute cat picture. But let's run a few commands to see if we can find anything.
 We are going to try ```strings```, ```binwalk```, and ```hexedit```.
 
-```strings``` will find any text strings embedded in files. 
-```binwalk``` searches an image file for embedded files or executable code.
-```hexedit``` is a file editor that shows you hex along with ASCII equivalent.
+```strings``` will find any text strings embedded in files. </br>
+```binwalk``` searches an image file for embedded files or executable code. </br>
+```hexedit``` is a file editor that shows you hex along with ASCII equivalent.</br>
 
 ```console
 ┌──(dch0017㉿linux)-[~/Forensics/Information]
@@ -33,7 +33,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 Our first two, give us nothing but when we jump into hexedit we see some intersting things.
 
 ## Encoded Strings
-Near the top of our hexeditor we have this blurb, and the part that sticks out is the ```id``` field and the ```license``` field.
+Near the top of our hexeditor we have this blurb, and the part that sticks out is the ```id``` field and the ```license``` field. They both look to be encoded, possibly base64.
 
 ```
 00000020   70 20 33 2E  30 00 38 42  49 4D 04 04  00 00 00 00  00 13 1C 02  74 00 07 50  69 63 6F 43  54 46 1C 02  p 3.0.8BIM..........t..PicoCTF..

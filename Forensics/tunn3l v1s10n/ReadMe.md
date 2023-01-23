@@ -73,6 +73,7 @@ So now we know something is wrong with the header size, let's look up some infor
 
 ## Editing Hex
 
+For this section I used ```hexedit```.</br></br>
 From the article we can see that the BITMAPINFOHEADER should equal 40 and that it is offset by 14 bytes. Each pair of hex digits is 1 byte, so we move over to the hex digits that represent the BITMAPINFOHEADER and we see that those 4 bytes are set to:
 
 ```
