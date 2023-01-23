@@ -15,9 +15,9 @@ First thing's first, let's grab the file and put it in our folder.
 
 My standard checks for pictures are going to be ```strings```, ```binwalk```, and ```hexedit```.
 
-```strings``` will find any text strings embedded in files. 
-```binwalk``` searches a image file for embedded files or executable code.
-```hexedit``` is a file editor that shows you hex along with ASCII equivalent.
+```strings``` will find any text strings embedded in files. </br>
+```binwalk``` searches a image file for embedded files or executable code.</br>
+```hexedit``` is a file editor that shows you hex along with ASCII equivalent.</br>
 
 ```console
 ┌──(dch0017㉿linux)-[~/Forensics/MatryoshkaDoll]
