@@ -5,19 +5,20 @@ Author: dch0017
 This garden contains more than it seems.
 
 ## Getting Started
-Let's grab the file and see what ```file``` gives us.
+We are greeted by a picture of a garden, okay the title already gives us that much.</br>
+![garden](./garden.png)
+</br>
 
-```console
-┌──(kali㉿kali)-[~/PicoCTF/Forensics/GloryOfTheGarden]
-└─$ wget https://jupiter.challenges.picoctf.org/static/43c4743b3946f427e883f6b286f47467/garden.jpg -q
-                                                                                               
+Let's run the file command and see what ```file``` gives us.
+
+```console                                                                                             
 ┌──(kali㉿kali)-[~/PicoCTF/Forensics/GloryOfTheGarden]
 └─$ file garden.jpg
 garden.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 2999x2249, components 3
 ```
 
 ## Strings, Binwalk, Hexedit
-We see that it is a JPEG, so this is when I would usually do my run-through of ```strings```, ```binwalk```, and ```hexedit```.
+We see that it is recognized as a JPEG, so this is when I would usually do my run-through of ```strings```, ```binwalk```, and ```hexedit```.
 </br>
 But ```strings``` knocked this out immediately.
 
