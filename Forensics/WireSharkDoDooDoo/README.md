@@ -16,8 +16,8 @@ I add a custom search, change the search location to ```packet bytes``` and my s
 ![first search](./firstsearch.png)
 </br>
 
-I'll try using regex to match the pattern of the flag, which is:
-```7 alphabet characters, open curly brace, any number of characters, closed curly brace```</br></br>
+I'll try using regex to match the pattern of the flag, which is:</br>
+7 alphabet characters, open curly brace, any number of characters, closed curly brace</br></br>
 
 This equates to the simple regex of: ```[A-Za-z]{7}{.*}```</br>
 
