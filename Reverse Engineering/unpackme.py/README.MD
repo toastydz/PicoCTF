@@ -8,11 +8,9 @@ Reverse engineer this Python program.
 ## Downloading Code
 Let's download our python script using `wget`:
 ```console
-┌──(kali㉿kali)-[~/RevEng/unpackmepy]
-└─$ wget -q https://artifacts.picoctf.net/c/465/unpackme.flag.py
+kali㉿kali$ wget -q https://artifacts.picoctf.net/c/465/unpackme.flag.py
 
-┌──(kali㉿kali)-[~/RevEng/unpackmepy]
-└─$ ls
+kali㉿kali$ ls
 unpackme.flag.py
 ```
 
